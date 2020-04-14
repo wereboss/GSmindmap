@@ -8,6 +8,7 @@ MindMap using Google Sheets
 ## Setup
 - Create a new Google Spreadsheet
 - Using the Tools -> Script Editor, copy the .GS code into Code.gs (default script)
+- Add the HTML file also inside the App script project (if HTML filename needs to change, update the doGet script)
 - Within the spreadsheet, Assign a Name the Sheet and create the below columns
     - Key - numerical incremental values
     - Title - the idea title
@@ -16,7 +17,8 @@ MindMap using Google Sheets
     - Actions - additional reading URLs (;) seperated. 
     - Links - mention the "key" values of child nodes
     - Action Formula - a column carrying formula for "processURLCell" function processing "Actions" column
-    (The constants defined in MindMap.gs align the column numbers for these columns, change them if different)
+    
+(The constants defined in MindMap.gs align the column numbers for these columns, change them if different)
 
 ## ToDo
 - Enable Rich Text Description, with bullets and headings
