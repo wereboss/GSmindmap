@@ -121,26 +121,7 @@ function processURLCell(cell){
   return outList.join(";");
 }
 
-function testFlow(){
-     // console.log(JSON.stringify(genJSONfromSheet("Nodes")));
-  //console.log(IMPORTXML("www.google.com","//title"))
-  var htmlData = UrlFetchApp.fetch("https://www.google.com").getContentText();
-  var xmldoc = XmlService.parse(htmlData);
-  var rootEle = xmldoc.getRootElement();
-  var data = [];
-  var descendants = rootEle.getDescendants();  
-  for(i in descendants) {
-    var elt = descendants[i].asElement();     
-    if( elt !=null && elt.getName()== "title") data.push(elt);      
-  }
-  
-  console.log(JSON.stringify(data));
-  //var elements = xmldoc.getRootElement().getChildren();
-  //var title = xmldoc.html.head.getElements("title")[0].getText();
-  
-}
     
-
 function doGet(e) {
   //var params = retJSON();
   var sheetName = "";

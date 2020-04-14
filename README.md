@@ -13,3 +13,11 @@ MindMap using Google Sheets
     - Title - the idea title
     - sDec - the idea short description to display
     - Desc - the idea detailed description
+    - Actions - additional reading URLs (;) seperated. 
+    - Links - mention the "key" values of child nodes
+    - Action Formula - a column carrying formula for "processURLCell" function processing "Actions" column
+    (The constants defined in MindMap.gs align the column numbers for these columns, change them if different)
+
+## ToDo
+- Enable Rich Text Description, with bullets and headings
+- Enable tagging, tag filtering, re-treeing based on tags
