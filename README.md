@@ -4,6 +4,8 @@ MindMap using Google Sheets
 ## Build ##
 - Uses the Google App Script to Web App model to serve MindMap JSON or HTML
 - Uses GoJS to display (mindmap model extended from IVR tree example)
+    - [GoJS](https://gojs.net/latest/index.html)
+    - [GoJS Example: IVR Tree](https://gojs.net/latest/samples/IVRtree.html)
 
 ## Setup ##
 ### Setting up Google App Script ###
