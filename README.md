@@ -61,6 +61,11 @@ Sample Spreadsheet:
 ### Testing the Setup ###
 1. Once you have your data ready, try the below URL
 `https://your Web App Exec URL?MMName=Your_Sheet_Name&form=html`
+2. Potential Errors:
+    - Google Error HTML page : doGet() and its internal functional flows have failed somehow. Check View->Logs inside the Google App Script project. 
+    - Page loads but no mindmap is show : Potentially the JSON serving has failed. check using the below URL to test the JSON
+`https://your Web App Exec URL?MMName=Your_Sheet_Name`
+    - The node collapse/expand feature on description/URL etc are not working: Potentially JSON is not built correctly possibly due to incorrect delimitters or data setup. Check the spreadsheet
 
 ## ToDo ##
 - [x] Simplified Tree MindMap, driven by Google Sheets, Editable & Accessible everywhere 
