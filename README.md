@@ -43,7 +43,7 @@ var request = new XMLHttpRequest();
 
 (The constants defined in MindMap.gs align the column numbers for these columns, change them if different)
 
-Sample:
+Sample Spreadsheet:
 | Key (A: Col 0) 	| Title (B: Col 1) 	| Short Desc (C: Col 2)  	| Long Desc (D: Col 3)                                  	| Actions (E: Col 4)                                                                         	| Links (F: Col 5) 	| Actions Formula (G: Col 6) 	|
 |----------------	|------------------	|------------------------	|-------------------------------------------------------	|--------------------------------------------------------------------------------------------	|------------------	|----------------------------	|
 | 1              	| Brick House      	| sint tempor pariatur   	| Dolor occaecat occaecat labore ullamco exercitation.  	| https://tinyurl.com/vmsva6u;https://tinyurl.com/s7kz9dv 	| 2;3              	| =processURLCell(E2)        	|
@@ -52,6 +52,11 @@ Sample:
 | 4              	| Bedroom          	| Proident voluptate sit 	| cillum irure est duis laborum deserunt id elit elit . 	|                                                                                            	|                  	| =processURLCell(E5)        	|
 | 5              	| Backyard         	| Magna laborum aliqua   	| Proident voluptate sit eiusmod pariatur               	|                                                                                            	|                  	| =processURLCell(E6)        	|
 
+### Testing the Setup ###
+1. Once you have your data ready, try the below URL
+`https://your Web App Exec URL?MMName=Your_Sheet_Name&form=html`
+
 ## ToDo ##
-- Enable Rich Text Description, with bullets and headings
-- Enable tagging, tag filtering, re-treeing based on tags
+- [x] Simplified Tree MindMap, driven by Google Sheets, Editable & Accessible everywhere 
+- [ ] Enable Rich Text Description, with bullets and headings
+- [ ] Enable tagging, tag filtering, re-treeing based on tags
