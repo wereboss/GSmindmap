@@ -11,7 +11,7 @@ MindMap using Google Sheets
     - [GoJS Example: IVR Tree](https://gojs.net/latest/samples/IVRtree.html)
 
 
-## Setup ##
+## Getting it to work ##
 ### Setting up Google App Script ###
 1. Create a **new Google Spreadsheet**
 2. Using the **Tools -> Script Editor**, copy the .GS code into Code.gs (default script)
